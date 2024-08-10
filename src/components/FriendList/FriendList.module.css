@@ -1,10 +1,18 @@
 .list {
   list-style-type: none;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 10px auto;
+  flex-wrap: wrap;
+  gap: 24px;
 }
+
 .tem {
-  margin: 12px;
+  margin: 0;
   transition: transform 0.3s ease;
 }
+
 .tem:hover {
   transform: scale(1.1);
 }

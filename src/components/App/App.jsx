@@ -8,11 +8,9 @@ import transaction from "../../transactions.json";
 
 export default function App() {
   return (
-    <div>
-      <div className={style.flex}>
-        <ProfileList proffs={userData} />
-        <FriendList user={friends} />
-      </div>
+    <div className={style.centr}>
+      <ProfileList proffs={userData} />
+      <FriendList user={friends} />
       <TransactionHistory items={transaction} />
     </div>
   );
