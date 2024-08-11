@@ -1,4 +1,4 @@
-.centr {
+.container {
   margin: 0px auto;
   flex-direction: column;
   display: flex;
@@ -26,4 +26,22 @@
 
 .read-the-docs {
   color: #888;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .container {
+    width: 568px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .container {
+    width: 760px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1140px;
+  }
 }

@@ -1,0 +1,74 @@
+.container {
+  min-width: 320px;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.logoLink {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+.logoLink:hover .logoText {
+  font-weight: 700;
+}
+
+.logoImage {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.logoText {
+  font-size: 20px;
+  font-weight: 500;
+  color: #1d1d1d;
+}
+
+.headerItem {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.headerBtn {
+  text-decoration: none;
+  font-size: 20px;
+  color: #1d1d1d;
+  font-weight: 600;
+  padding: 10px 15px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.headerBtn:hover {
+  background-color: #f0646b;
+  border-radius: 5px;
+  color: white;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .container {
+    width: 568px;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .container {
+    width: 760px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1140px;
+  }
+}
