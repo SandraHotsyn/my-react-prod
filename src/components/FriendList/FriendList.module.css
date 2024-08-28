@@ -1,9 +1,9 @@
 .list {
   list-style-type: none;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   text-align: center;
-  margin: 10px auto;
+  /* margin: 10px auto; */
   flex-wrap: wrap;
   gap: 24px;
 }
