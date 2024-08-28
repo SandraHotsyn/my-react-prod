@@ -16,8 +16,8 @@ export default function App() {
       </header>
       <main className={style.container}>
         <Hero />
-        <ProfileList proffs={userData} />
         <FriendList user={friends} />
+        <ProfileList proffs={userData} />
         <TransactionHistory items={transaction} />
       </main>
     </>
