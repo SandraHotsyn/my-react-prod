@@ -1,19 +1,19 @@
 [
   {
     "avatar": "https://cdn-icons-png.flaticon.com/512/1998/1998592.png",
-    "name": "Mango",
+    "name": "ПРИКЛАДНЕ ПРОГРАМУВАННЯ",
     "isOnline": true,
     "id": 1812
   },
   {
     "avatar": "https://cdn-icons-png.flaticon.com/512/616/616438.png",
-    "name": "Kiwi",
+    "name": "WEB-ПРОГРАМУВАННЯ",
     "isOnline": false,
     "id": 1137
   },
   {
     "avatar": "https://cdn-icons-png.flaticon.com/512/1623/1623681.png",
-    "name": "Ajax",
+    "name": "СИСТЕМИ КЕРУВАННЯ БД",
     "isOnline": true,
     "id": 1213
   },
@@ -25,7 +25,7 @@
   },
   {
     "avatar": "https://cdn-icons-png.flaticon.com/512/1998/1998749.png",
-    "name": "Poly",
+    "name": "НП БАЗ ДАНИХ",
     "isOnline": false,
     "id": 1284
   }
